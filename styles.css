@@ -1,0 +1,25 @@
+.patrick-hand-regular{
+    overflow: scroll;
+    visibility: hidden;
+}
+
+.main_img{
+    opaacity: 0.5
+}
+
+.report{
+    border: 5px solid rgb(112, 112, 180);
+    margin-left: 50px;
+    margin-right: 50px
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+h3{
+    font-size: 25px
+    font-family: 'Franklin Gothic Medium','AriaL Narrow', Arial, san-seri
+    text-decoration: underline;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
