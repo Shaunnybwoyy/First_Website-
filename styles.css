@@ -1,17 +1,32 @@
+:root{
+    --main-color: #8fafb1;
+    --main-txt-color: #dc1111;
+}
+
 .patrick-hand-regular{
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.body{
     overflow: scroll;
     visibility: hidden;
+    background-color: var(--main-color);
 }
 
 .main_img{
-    opaacity: 0.5
+    opacity: 0.5
 }
 
 .report{
-    border: 5px solid rgb(112, 112, 180);
-    margin-left: 50px;
-    margin-right: 50px
-    padding-left: 25px;
+    border: 5px  dotted rgb(112, 112, 180);
+    border-radius: 15px;
+    -webkit-border-radius: 15px
+    -moz-border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    paddding-left: 25px;
     padding-top: 10px;
 }
 
@@ -21,5 +36,9 @@ h3{
     text-decoration: underline;
     letter-spacing: 7px;
     font-weight: bold;
+}
+
+a:link{
+    color: #7c64f4
 }
 
